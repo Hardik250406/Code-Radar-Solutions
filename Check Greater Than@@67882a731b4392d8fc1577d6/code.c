@@ -3,7 +3,10 @@
 int main(){
     int a,b,greater;
     scanf("%d%d",&a,&b);
-    greater = a>b;
-    printf(greater);
+    if a>b;{
+        printf("True");
+    else;
+    printf("False")
+    }
     return 0;
 }
