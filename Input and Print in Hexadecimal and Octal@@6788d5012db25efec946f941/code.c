@@ -5,7 +5,7 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    printf("Hexadecimal: %d", a);
-    printf("Octal: %d",a)
+    printf("Hexadecimal: %d\n", a);
+    printf("Octal: %d\n",a)
     return 0;
 }
