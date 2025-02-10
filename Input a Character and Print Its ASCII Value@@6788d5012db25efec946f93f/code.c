@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
+    char a;
 
    
-    scanf("%c", &ch);
+    scanf("%c", &a);
 
-    printf("ASCII value: %d\n", ch, ch);
+    printf("ASCII Value: %d\n", a, a);
 
     return 0;
 }
