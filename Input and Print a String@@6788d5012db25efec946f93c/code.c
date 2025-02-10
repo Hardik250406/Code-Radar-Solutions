@@ -5,5 +5,6 @@
 int main() {
     char str [100];
     scanf("%99s",a);
-    printf("You entered: %s",a);
-    return 0;}
+    printf("You entered: %s\n",a);
+    return 0;
+    }
