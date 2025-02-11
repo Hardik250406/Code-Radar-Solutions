@@ -1,30 +1,30 @@
 // // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b;
+    int a , b;
     scanf("%d%d",&a,&b);
-    if (a!=b){
+    if (a!=b) {
         printf("True");
     }
-    else{
+    else {
         printf("False"):
         }
     return 0;
 }
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int a, b;
-    scanf("%d%d", &a, &b);
+// int main() {
+//     int a, b;
+//     scanf("%d%d", &a, &b);
     
-    if (a != b) {  // Checks if a is not equal to b
-        printf("True");
-    } 
-    else {
-        printf("False");  // Corrected semicolon
-    }
+//     if (a != b) {  // Checks if a is not equal to b
+//         printf("True");
+//     } 
+//     else {
+//         printf("False");  // Corrected semicolon
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
