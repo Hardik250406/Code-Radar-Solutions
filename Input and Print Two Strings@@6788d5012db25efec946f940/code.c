@@ -4,8 +4,9 @@
 
 int main() {
     char a[100];
-    scanf("%s",a);
+    char b[100];
+    scanf("%99s %99s", a, b);
     
-    printf("You entered: %c and\n",a);
+    printf("You entered: %s and %s\n",a,b);
     return 0;
 }
