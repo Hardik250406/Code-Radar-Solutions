@@ -7,7 +7,7 @@ int main(){
         printf("True");
     
     }
-    else if(a>b) {
+    else if(a<b) {
         printf("False");
     }
     else{
