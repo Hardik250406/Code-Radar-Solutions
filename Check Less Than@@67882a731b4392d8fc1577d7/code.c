@@ -6,9 +6,9 @@ int main() {
     printf("Enter number: ");
     scanf("%d%d",&a,&b);
     if (a<b){
-        printf("True")
+        printf("True");
     }
-    else (){
+    else{
         printf("False");
 
     }
