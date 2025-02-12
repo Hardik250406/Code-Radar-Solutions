@@ -7,11 +7,9 @@ int main(){
         printf(%d,a);
     
     }
-    else if (a<b){
+    else (a<b){
         printf(%d,b);
     }
-    else{
-        printf("Both the numbers are equal");
-    }
+   
     return 0;
 }
