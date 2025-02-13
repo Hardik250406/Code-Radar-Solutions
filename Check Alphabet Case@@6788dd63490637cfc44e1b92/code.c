@@ -1,9 +1,9 @@
 // Your code here..
-#include<stdio.h>
+#includ(){<stdio.h>
 int main{
     char a;
-    scanf ("%s",&a);
-    if (a== (A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z)){
+    scanf ("%c",&a);
+    if (a>='A' && a<='Z'){
         print("Uppercase");
     }
     else{
@@ -11,4 +11,4 @@ int main{
     }
     return 0;
     }
-    
+} 
