@@ -4,6 +4,7 @@ int main(){
     int a,b;
     if (a>=18) {
         if (b=1){
+            printf("Eligible");
         
         }
         printf("Eligible");
