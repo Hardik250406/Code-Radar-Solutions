@@ -2,14 +2,26 @@
 #include<stdio.h>
 int main(){
     char X;
-    int A;
-    spl S;
-    scanf("%c %d %s",&X,&A,&S);
-    Z= a,e,i,o,u,A,E,I,O,U;
-    if (X==Z){
-    
-        printf("Vowel");
+   
+    scanf("%c ",&X);
+    if ((X >='A') && (X<='Z') || (X>='a') && (X<='z')){
+        if(X == 'A' || X =='E' ||  X== 'I' || X== 'O' || X== 'U' || X== 'a' || X== 'e' || X== 'i' || X== 'o' || X== 'u'){
+            printf("Vowel");
+        }
+        else {
+            printf("Consonant");
+        }
+        
     }
+    else if ((X>0)&&(x<0)){
+        printf("Digit");
+    
+    } 
+    else{
+        printf(Special Character);
+    }         
+
+   
     
     return 0;
 }
