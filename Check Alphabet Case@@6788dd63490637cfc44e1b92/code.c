@@ -1,5 +1,5 @@
 // Your code here..
-#includ(){<stdio.h>
+#includ<stdio.h>{
 int main{
     char a;
     scanf ("%c",&a);
