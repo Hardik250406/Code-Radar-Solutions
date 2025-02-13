@@ -1,6 +1,6 @@
 // Your code here..
-#includ<stdio.h>
-int main{
+#includ <stdio.h>
+int main(){
     char a;
     scanf ("%c",&a);
     if (a>='A' && a<='Z'){
