@@ -5,8 +5,11 @@ int main(){
     int A;
     spl S;
     scanf("%c %d %s",&X,&A,&S);
-    if ((X<a) && (X>z) || (X<A) && (X>Z)){
+    Z= a,e,i,o,u,A,E,I,O,U;
+    if (X==Z){
+    
         printf("Vowel");
     }
+    
     return 0;
 }
