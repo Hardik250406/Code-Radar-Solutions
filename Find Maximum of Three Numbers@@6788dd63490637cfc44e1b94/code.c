@@ -2,19 +2,17 @@
 #include<stdio.h>
 int main(){
     int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
-    if (a> b&&c){
+    scanf("%d %d %d",&a,&b,&c);
+    if ((a> b)&&(a>c)){
         printf(a);
     }
-    else if (a && c< b){
+    else if ((a<c) &&( c< b)){
         printf(b);
     }
-    else if (a && b < c){
+    else {
         printf(c);
     }
-    else {
-        printf("These are equal");
-    }
+    
     return 0;
    
 }
