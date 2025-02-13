@@ -20,7 +20,7 @@ int main(){
         printf("Sunday");
     }
         
-    }
+    
     
     return 0;
 }
