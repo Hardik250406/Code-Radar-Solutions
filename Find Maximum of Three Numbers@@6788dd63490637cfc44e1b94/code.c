@@ -6,6 +6,15 @@ int main(){
     if (a> b&&c){
         printf(a);
     }
+    else if (a && c< b){
+        printf(b);
+    }
+    else if (a && b < c){
+        printf(c);
+    }
+    else {
+        printf("These are equal");
+    }
     return 0;
    
 }
