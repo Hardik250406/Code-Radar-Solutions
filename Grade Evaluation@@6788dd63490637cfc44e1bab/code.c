@@ -19,7 +19,7 @@ int main(){
         printf("Fail");
     }
     else{
-        printf("Invalid input")
+        printf("Invalid input");
     }
     return 0;
 }
