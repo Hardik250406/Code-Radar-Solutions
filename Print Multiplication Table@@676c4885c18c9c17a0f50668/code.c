@@ -7,7 +7,7 @@ int main(){
         mul=N*i;
 
         
-        printf("%d x %d = %d\n",i,mul,);
+        printf("%d x %d = %d\n",N,i,mul);
     }
     return 0;
 }
