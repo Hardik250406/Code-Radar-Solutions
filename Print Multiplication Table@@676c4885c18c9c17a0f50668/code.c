@@ -3,11 +3,11 @@
 int main(){
     int a,N,mul;
     scanf("%d",&N);
-    for (i=1;i<=10;i++){
-        mul=a*N;
+    for ( int i=1;i<=10;i++){
+        mul=N*i;
 
         
-        printf("%d x %d ="i,mul,);
+        printf("%d x %d = %d\n",i,mul,);
     }
     return 0;
 }
