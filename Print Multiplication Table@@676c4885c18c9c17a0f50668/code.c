@@ -9,4 +9,5 @@ int main(){
         
         printf("%d x %d ="i,mul,);
     }
+    return 0;
 }
