@@ -8,10 +8,10 @@ int main(){
             printf("*");
         
             
-        }printf(" ");
+        }printf("\n");
         
         for(j=1;j<=i;j++){
-            printf("\n");
+            printf("");
         }
     }
     return 0;
