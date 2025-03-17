@@ -10,7 +10,7 @@ int main(){
             char ch= (char)d;
             printf("%c ",ch);
             a++;
-            i+=1;
+            i+=3;
         }
         printf("\n");
     }
