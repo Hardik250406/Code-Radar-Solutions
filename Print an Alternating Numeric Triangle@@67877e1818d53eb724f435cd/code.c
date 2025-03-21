@@ -13,7 +13,7 @@ int main(){
                 }
                 else{
                 printf("0");
-            }
+            }}
             else{
                 if(i%2!=0){
                     if(j%2!=0){
