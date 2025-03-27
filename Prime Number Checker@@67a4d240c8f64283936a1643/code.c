@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int isPrime(){
+void isPrime(){
     return 0;
 }
 
