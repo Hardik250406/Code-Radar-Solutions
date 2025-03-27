@@ -1,14 +1,17 @@
 // Your code here...
 #include <stdio.h>
+int isPrime(){
+    return a;
+}
 
 int main() {
     int t;
-    scanf("%d", &t);  // Read the number of test cases
+    scanf("%d", &t);  
 
-    while (t--) {  // Run the loop t times
+    while (t--) {  
         int num;
-        scanf("%d", &num);  // Read the number to check
-        printf("%d\n", isPrime(num));  // Call isPrime() and print the result
+        scanf("%d", &num);  
+        printf("%d\n", isPrime(num));  
     }
     
     return 0;
