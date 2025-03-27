@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 void isPrime(){
-    return 0;
+    return ;
 }
 
 int main() {
