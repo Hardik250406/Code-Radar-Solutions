@@ -13,8 +13,8 @@ int main(){
         if(min<arr[i]){
             min =arr[i];
         }
-        
-    }printf("%d",min);
-    printf("%d",max);
+        printf("%d",min);
+        printf("%d",max);
+    }
     
 }
