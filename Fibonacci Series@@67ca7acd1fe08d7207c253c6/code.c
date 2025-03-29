@@ -10,8 +10,5 @@ return fibonacci(n-1)+fibonacci(n-2);
 for(int i=0;i<n;i++){
     printf("%d",fibonacci(i));
 
-    next=first+second;
-    first=second;
-    second=next;
 }
 fibonacciSeries(n);
