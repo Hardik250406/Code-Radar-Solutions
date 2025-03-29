@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int arr[i];
+    int arr[]=N;
     scanf("%d",&N);
     int max=-1;
     int min=1
