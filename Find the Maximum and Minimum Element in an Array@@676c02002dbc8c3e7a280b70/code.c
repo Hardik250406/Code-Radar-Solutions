@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
+    int N;
     int arr[N];
     scanf("%d",&N);
     int max=-1;
