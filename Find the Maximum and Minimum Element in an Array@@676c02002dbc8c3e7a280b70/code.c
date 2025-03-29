@@ -4,10 +4,11 @@
 
 int main(){
     int N;
-    int arr[N];
+    
     scanf("%d",&N);
-    int max=-1;
-    int min=1;
+    int arr[N];
+    int max=-INT_MAX;
+    int min=INT_MIN;
     for(int i=1;i<=N;i++){
         if (max<arr[i]){
             max=arr[i];
