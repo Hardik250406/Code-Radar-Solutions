@@ -7,15 +7,6 @@ int fibonacciSeries(int n) {
     return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
 }
 
-int main() {
-    int n;
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);  // Read input
-
-    if (n < 0) {
-        printf("Invalid input\n");
-        return 1;  // Exit the program if input is invalid
-    }
 
     // Print Fibonacci series
     for (int i = 0; i < n; i++) {
@@ -24,7 +15,7 @@ int main() {
     
     printf("\n"); // New line after output
     return 0;
-}
+
 
 
 
