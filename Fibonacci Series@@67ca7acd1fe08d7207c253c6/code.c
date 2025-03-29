@@ -12,10 +12,7 @@ int fibonacciSeries(int n) {
 }
 
 
-    // Print Fibonacci series
     
-    printf("\n"); // New line after output
-    return 0;
 
 
 
