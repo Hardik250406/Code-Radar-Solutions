@@ -1,4 +1,3 @@
-else if
 {for (int i = 0; i < n; i++) {
         printf("%d ", fibonacciSeries(i));}
         int fibonacciSeries(int n) {
